@@ -1,0 +1,57 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    text-align: center;
+}
+
+#form-tarefa input,
+#form-tarefa button{
+    margin-right: 8px;
+}
+h1,
+header {
+    cursor: pointer;
+}
+
+form {
+    cursor: pointer;
+}
+
+ul {
+    cursor: pointer;
+}
+
+.feito {
+    text-decoration: line-through;
+}
+
+
+h1 {
+    color: #1E90FF;
+}
+
+button {
+    background-color: floralwhite;
+    color: green;
+}
+
+button[type="reset"] {
+    color: #FF0000;
+}
+
+button[type="submit"],
+button[type="reset"] {
+    cursor: pointer;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: #1E90FF;
+    padding: 10px 0;
+}
